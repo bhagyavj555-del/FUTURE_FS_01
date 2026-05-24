@@ -9,12 +9,12 @@ export default function App() {
     {
       title: "Marks Calculator",
       desc: "A simple marks calculator built using JavaScript.",
-      link: "https://github.com/your-username/marks-calculator",
+      link: "https://bhagyavj555-del.github.io/simple-calculator",
     },
     {
       title: "Portfolio Website",
       desc: "Professional portfolio with login system & UI design.",
-      link: "https://github.com/your-username/portfolio",
+      link: "https://github.com/bhagyavj555-del/Portfolio-",
     },
   ];
 
@@ -58,19 +58,35 @@ export default function App() {
         <p><b>Skills:</b> HTML, CSS, JavaScript, React</p>
         <p><b>Goal:</b> Full Stack Developer</p>
       </section>
-
       {/* PROJECTS */}
-      <section id="projects" className="projects">
-        <h2>Projects</h2>
+      <div className="project-card">
+  <h3>My Portfolio Website</h3>
+  <p>A professional portfolio with login system and glassmorphism UI.</p>
 
-        {projects.map((p, i) => (
-          <div key={i} className="project-card">
-            <h3>{p.title}</h3>
-            <p>{p.desc}</p>
-            <a href={p.link} target="_blank">View Project</a>
-          </div>
-        ))}
-      </section>
+  <div className="project-links">
+    <a href="https://github.com/bhagyavj555-del/Portfolio-" target="_blank">
+      GitHub
+    </a>
+
+    <a href="https://bhagyavj555-del.github.io/portfolio-" target="_blank">
+      Live Demo
+    </a>
+  </div>
+</div>
+     <div className="project-card">
+  <h3>Simple mark calculator</h3>
+  <p>A simple mark and grade calculator.</p>
+
+  <div className="project-links">
+    <a href="https://github.com/bhagyavj555-del/simple-calculator" target="_blank">
+      GitHub
+    </a>
+
+    <a href="https://bhagyavj555-del.github.io/simple-calculator" target="_blank">
+      Live Demo
+    </a>
+  </div>
+</div>
 
       {/* CONTACT */}
       <section id="contact" className="card">
