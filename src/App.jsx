@@ -14,7 +14,7 @@ export default function App() {
     {
       title: "Portfolio Website",
       desc: "Professional portfolio with login system & UI design.",
-      link: "https://github.com/bhagyavj555-del/Portfolio-",
+      link: "",
     },
   ];
 
@@ -68,7 +68,8 @@ export default function App() {
       GitHub
     </a>
 
-    <a href="https://bhagyavj555-del.github.io/portfolio-" target="_blank">
+    <a href="https://bhagyavj555-del.github.io/Portfolio-" target="_blank">
+  
       Live Demo
     </a>
   </div>
