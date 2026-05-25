@@ -41,7 +41,7 @@ export default function App() {
       <section id="home" className="hero">
         <img src={profilePic} alt="Profile" className="profile-img" />
 
-        <h1>Hi, I'm Bhagyalakshmi V j</h1>
+        <h1>Hi, I'm Bhagyalakshmi V J</h1>
         <p>I am a passionate computer sience engineering student and an aspiring full stack developer. I enjoy learning new technologies and solving real world problems.</p>
 
         <div className="socials">
@@ -50,7 +50,7 @@ export default function App() {
             target="_blank"
             rel="noopener noreferrer"
           >
-            GitHub
+           🐱GitHub
           </a>
 
           <a
@@ -58,7 +58,7 @@ export default function App() {
             target="_blank"
             rel="noopener noreferrer"
           >
-            LinkedIn
+           💼LinkedIn
           </a>
         </div>
       </section>
